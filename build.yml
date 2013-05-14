@@ -1,0 +1,26 @@
+#sdk: "C:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.3.2"
+sdkversion: 3.3.2
+name: contact-app
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: com.rhomobile.contact-app
+  BundleURLScheme: contact-app
+wp:
+  productid: f45507f0-9bbb-0130-c5e0-1439e558ae7b
+symbian:
+  uid: 3993898189
+android:
+  version: 2.1
+  emulator: rhoAVD
+extensions:
+  - json
+  - another-extension

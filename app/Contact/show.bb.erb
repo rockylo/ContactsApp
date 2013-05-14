@@ -1,0 +1,35 @@
+<div data-role="page" data-add-back-btn="true">
+
+  <div data-role="header" data-position="inline">
+    <%= link_to "Back", :action => :index %>
+    <h1><%= @contact.FirstName %></h1>
+    <%= link_to "Edit", :action => :edit, :id => @contact.object %>
+  </div>
+
+  <div data-role="content">
+    <table>
+      
+      <tr>
+    	<td class="itemLabel">FirstName</td>
+        <td class="itemValue"><%= @contact.FirstName%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">LastName</td>
+        <td class="itemValue"><%= @contact.LastName%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Phone</td>
+        <td class="itemValue"><%= @contact.Phone%></td>
+      </tr>
+      
+      <tr>
+    	<td class="itemLabel">Email</td>
+        <td class="itemValue"><%= @contact.Email%></td>
+      </tr>
+      
+    </table>
+  </div>
+
+</div>
